@@ -11,7 +11,7 @@ export default function SpellCheck() {
   const [inputText, setInputText] = useState("");
   const [suggestedText, setSuggestedText] = useState("");
 
-  handleInputChange = (e) => {
+  const handleInputChange = (e) => {
     const text = e.target.value;
     setInputText(text);
 
